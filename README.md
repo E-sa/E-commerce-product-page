@@ -17,8 +17,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/ecommerceproductpage-with-reactreduxbootstrap-gO4fu6CmZ)
-- Live Site URL: [Add live site URL here](https://ecommerce-product-page-henna.vercel.app/)
+- Solution URL: [solution](https://www.frontendmentor.io/solutions/ecommerceproductpage-with-reactreduxbootstrap-gO4fu6CmZ)
+- Live Site URL: [live](https://ecommerce-product-page-henna.vercel.app/)
 
 ## My process
 
