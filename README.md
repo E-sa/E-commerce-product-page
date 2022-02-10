@@ -2,20 +2,6 @@
 
 This is a solution to the [E-commerce product page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
 
 ## Overview
 
@@ -48,27 +34,25 @@ Users should be able to:
 1. i learned how to use svg images in my code
 
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+
 
 ```js
 import { ReactComponent as Logo } from "./icon-close.svg";
 
 function(){
-return(
-<Logo />
-)
-}
+  return(
+    <Logo />
+    )
+  }
 
 }
 ```
 
 2. i learned how to show 3 dots on text-overflow:
  ```css
-.proud-of-this-css {
-  width: 100px;
-overflow: hidden;
+.class {
+    width: 100px;
+    overflow: hidden;
     display: inline-block;
     text-overflow: ellipsis;
     white-space: nowrap;
