@@ -1,0 +1,11 @@
+.logo-container {
+    width: 180px;
+    border: none;
+
+    #logo {
+        border: none;
+        background-image: url("../../pictures/logo.svg");
+        background-repeat: no-repeat;
+        padding-bottom: 36px;
+    }
+}

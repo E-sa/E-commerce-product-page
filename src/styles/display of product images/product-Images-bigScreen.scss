@@ -1,0 +1,34 @@
+#main-picture {
+    width: 80%;
+    height: auto;
+    min-height: 100% !important;
+    border-radius: 10px;
+}
+
+.thumb-nail-container {
+    width: 80%;
+}
+
+div[id*="thumb-nail-"] {
+    max-height: 20%;
+    max-width: 20%;
+    width: -webkit-fill-available;
+    height: auto;
+    border-radius: 10px;
+}
+
+.thumb-nail {
+    width: 100%;
+    border-radius: 10px;
+
+    &:hover {
+        opacity: 0.5;
+    }
+}
+
+div[id*="thumb-nail-1"] {
+    border: 2px solid #d47d38;
+}
+img[id*="thumb-nail-1"] {
+    opacity: 0.5;
+}

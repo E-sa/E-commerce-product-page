@@ -1,0 +1,34 @@
+#cart-logo {
+    width: 24px;
+    background-image: url(../../pictures/icon-cart.svg);
+    background-repeat: no-repeat;
+    margin-top: 16px;
+    background-size: 12px 12px;
+    border: none;
+    transform: scale(1.2);
+}
+
+#profile-avatar {
+    background-image: url(../../pictures/image-avatar.png);
+    background-repeat: no-repeat;
+    margin-top: 11px;
+    background-size: 30px;
+    padding-right: 0px;
+    padding-left: 29px;
+    padding-bottom: 0 !important;
+    border-radius: 20px;
+    margin-top: 7px;
+    height: 33px;
+
+    &:hover {
+        border: 2px solid #ff7d1c;
+    }
+}
+
+#cart-avatar-container {
+    display: inline-flex;
+    margin-left: auto;
+    padding-bottom: 8px;
+    position: relative;
+
+}

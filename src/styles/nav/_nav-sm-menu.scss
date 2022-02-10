@@ -1,0 +1,52 @@
+
+#nav-menu-logo{
+    background-image: url(../../pictures/icon-menu.svg);
+    background-repeat: no-repeat;
+    width: 4vw;
+    height: 4vw;
+    background-size: 4vw 4vw;
+    margin-right: 10px;
+}
+
+#on-menu-shadow{
+    position: fixed;
+    background-color: #00000087;
+    width: 34%;
+    height: 100vh;
+    right: 0;
+}
+.menu-container {
+    position: fixed;
+    width: 66%;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    z-index: 100;
+    background: white;
+}
+
+#menu-close {
+    background-image: url("../../pictures/icon-close.svg");
+    background-repeat: no-repeat;
+    background-size: 10px 10px;
+    position: fixed;
+    width: 15px;
+    height: 15px;
+    top: 20px;
+    left: 20px;
+    z-index: 100;
+}
+
+.menu-items-container {
+    #menu-items {
+        border: none;
+        font-weight: bold;
+        color: black;
+        padding: 0;
+    }
+
+}
+
+.carousel-indicators{
+    display: none !important;
+}

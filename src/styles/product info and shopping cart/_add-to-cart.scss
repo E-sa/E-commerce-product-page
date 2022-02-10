@@ -1,0 +1,34 @@
+#quantity-box {
+    background: #f7f8fd;
+    padding: 8px 0px 6px 0px;
+}
+
+#quantity {
+    background: #f7f8fd;
+}
+
+.minus {
+    :hover {
+        fill: #fbad6c;
+    }
+}
+.plus {
+    :hover {
+        fill: #fbad6c;
+    }
+}
+
+#add-to-cart-botton {
+    background: #ff7d1b;
+}
+
+#add-to-cart-botton:hover {
+    background-color: #fbad6c;
+}
+
+#cart-icon-in-button {
+    transform: scale(0.9);
+    path {
+        fill: white;
+    }
+}

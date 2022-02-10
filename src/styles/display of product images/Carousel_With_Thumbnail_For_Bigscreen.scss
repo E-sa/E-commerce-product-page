@@ -1,0 +1,88 @@
+.carousel-shadow {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background: #000000a6;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+//beacouse only large screen have indicators in carousel
+@media only screen and (min-width: 768px) {
+    .carousel {
+        top: -45px;
+    }
+
+    .carousel-indicators {
+        width: 85%;
+        display: flex !important;
+        bottom: -80px !important;
+        margin: 0 auto !important;
+        justify-content: space-between !important;
+        background: none;
+
+        button {
+            max-width: 20%;
+            max-height: 20%;
+            width: -webkit-fill-available !important;
+            height: 50px !important;
+
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+            border: none !important;
+            margin: none !important;
+            border-radius: 8px !important;
+        }
+
+        :nth-child(1) {
+            background-image: url("../../pictures/image-product-1-thumbnail.jpg");
+        }
+        :nth-child(2) {
+            background-image: url("../../pictures/image-product-2-thumbnail.jpg");
+        }
+        :nth-child(3) {
+            background-image: url("../../pictures/image-product-3-thumbnail.jpg");
+        }
+        :nth-child(4) {
+            background-image: url("../../pictures/image-product-4-thumbnail.jpg");
+        }
+    }
+
+    .carousel-control-prev {
+        left: -18px !important;
+    }
+
+    .carousel-control-next {
+        right: -18px !important;
+    }
+
+    .carousel-inner {
+        border-radius: 10px !important;
+    }
+
+    .cross__icon {
+        position: fixed;
+        top: 20px;
+        right: 30px;
+    }
+
+    .cross__icon path {
+        fill: #FF791A;
+    }
+
+    .carousel-indicators [data-bs-target]{
+        opacity: 1 !important;
+    }
+
+    .carousel-indicators .active{
+        opacity: 1 !important;
+        border: 2px solid #FF791A !important;
+    }
+}

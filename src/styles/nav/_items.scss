@@ -1,0 +1,33 @@
+#checkout-button {
+    background-color: #ff7d1b;
+    width: 90%;
+}
+
+#cart-item-image {
+    width: 32px;
+    height: 32px;
+}
+
+.cart-item-container {
+    font-size: 12px;
+    color: #a8a9ad;
+}
+
+.cart-item-info-container {
+    width: 137px;
+}
+
+#trash-bin {
+    transform: scale(0.7);
+}
+
+#cart-item-name {
+    overflow: hidden;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#cart-item-total-price{
+    color: black;
+}
