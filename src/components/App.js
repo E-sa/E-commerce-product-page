@@ -10,9 +10,9 @@ export default function App() {
     return (
         <div className="container p-sm-0 p-0 mb-5" >
 
-            <Navbar />
+            <Navbar role="navigation"  />
 
-            <Container className="mt-md-5 mt-lg-5">
+            <Container className="mt-md-5 mt-lg-5" role="main" >
                 <Row className="d-flex">
 
                     <Col className="p-sm-0 p-0" md sm="12">

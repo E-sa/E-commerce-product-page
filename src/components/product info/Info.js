@@ -23,7 +23,7 @@ export default function Info() {
                 <p id="discount-percentage" className="rounded ml-3  font-weight-bolder">50%</p>
             </div>
             
-            <h5 id="before-price">250.00</h5>
+            <p id="before-price">$250.00</p>
         </>
     )
 }
