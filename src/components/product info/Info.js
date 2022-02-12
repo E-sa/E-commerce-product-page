@@ -19,8 +19,8 @@ export default function Info() {
             </p>
 
             <div className="d-flex">
-                <h3 id="current-price">$125.00</h3>
-                <h5 id="discount-percentage" className="rounded ml-3  font-weight-bolder">50%</h5>
+                <p id="current-price">$125.00</p>
+                <p id="discount-percentage" className="rounded ml-3  font-weight-bolder">50%</p>
             </div>
             
             <h5 id="before-price">250.00</h5>

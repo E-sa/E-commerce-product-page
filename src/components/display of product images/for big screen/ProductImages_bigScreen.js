@@ -26,6 +26,7 @@ export default function ProductImages_bigScreen() {
             <img
              id="main-picture"
              src={Images[0]} 
+             alt="main-product-image"
              onClick={() => setCarousel(!isCarousel)} 
             />
 
@@ -44,6 +45,7 @@ export default function ProductImages_bigScreen() {
                                 className="thumb-nail"
                                 id={`thumb-nail-${index + 1}`}
                                 src={Images[index+3]}
+                                alt="product-image-thumbnail"
                                 onClick={() => setCarousel(!isCarousel)}
                             >
                             </img>

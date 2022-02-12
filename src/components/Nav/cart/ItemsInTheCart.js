@@ -12,6 +12,7 @@ export default function ItemsInTheCart(quantity) {
             <img
                 src={Images[4]}
                 id="cart-item-image"
+                alt="purchased-item-image"
                 className="rounded"
             />
 

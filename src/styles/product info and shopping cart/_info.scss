@@ -7,7 +7,7 @@
 #discount-percentage{
     background: #FFEEE1;
     color: #E58E4C;
-    line-height: 17px;
+    line-height: inherit;
     padding: 6px 4px 0px 4px;
     font-size: 14px;
 }
@@ -15,4 +15,9 @@
 #before-price{
     color: #bfc1c3;
     text-decoration-line: line-through;
+}
+
+#current-price{
+    font-weight: bolder;
+    font-size: x-large;
 }
