@@ -10,7 +10,7 @@ export default function NavLogo() {
             <Nav.Link 
             id="logo" 
             className='nav-link' 
-            href="">
+            href="/">
             </Nav.Link>
             
         </Nav.Item>

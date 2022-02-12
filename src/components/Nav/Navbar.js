@@ -10,6 +10,7 @@ export default function Navbar() {
         <Nav
             activeKey="/home"
             className=" navbar-container d-flex align-items-center m-lg-2 m-md-2 px-sm-3 px-3  "
+            role="navigation"
         >
 
             {/* 1. menu logo for small screen */}
