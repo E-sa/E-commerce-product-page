@@ -17,7 +17,7 @@ export default function AddToCart_Button() {
 
             <Cart_icon id="cart-icon-in-button" />
             
-            <p className="d-inline ml-3 mb-0">Add to cart</p>
+            <b className="d-inline ml-3 mb-0 font-weight-normal">Add to cart</b>
 
         </Button>
     )

@@ -10,6 +10,7 @@ export default function NavLogo() {
             <Nav.Link 
             id="logo" 
             className='nav-link' 
+            aria-label="visit home page"
             href="/">
             </Nav.Link>
             
